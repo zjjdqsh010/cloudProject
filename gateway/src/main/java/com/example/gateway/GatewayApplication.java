@@ -8,6 +8,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class GatewayApplication {
 
+    /**
+     * @description：网管启动
+     * @author：H
+     * @param：null  
+     * @return：null
+     * @date：2023-4-21 16:24
+     */
     public static void main(String[] args) {
         SpringApplication.run(GatewayApplication.class, args);
     }
